@@ -35,3 +35,8 @@ function mouseClicked()
     loop()
   }
 }
+
+function windowResized() 
+{
+  resizeCanvas(windowWidth, windowHeight);
+}
